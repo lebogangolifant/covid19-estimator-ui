@@ -7,6 +7,6 @@
 
 
 ## Screenshots
-!["covid19 estimator"](https://github.com/lebogangolifant/covid19-estimator-ui/blob/master/screenshots/covid19-estimator.png)
+!["covid19 estimator"](./screenshots/covid19-estimator.png =50x50)
 
 ### [Demo](https://.)
