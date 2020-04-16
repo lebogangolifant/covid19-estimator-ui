@@ -12,21 +12,20 @@
      overflow: hidden;
  }
 
- /* container */
- .container{
-    width: 100%;
-    justify-content: center;
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    
+ /* header */
+ .header {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  font-weight: 600;
  }
 
- .header{
-margin-bottom: 30px;
-font-size: 2rem;
+ .header span{
+   color: #d12525;
+   font-weight: 600;
  }
 
+ /* form */
  .form-inline {  
     display: flex;
     flex-wrap: wrap;
@@ -110,15 +109,15 @@ font-size: 2rem;
       align-items: stretch;
     }
 
-    .header{
-        margin-top: -40px;
+    .header {
+        margin-top: 40px;
         margin-bottom: -40px;
         font-size: 0.8rem;
-         }
+      }
 
          .form-inline label {
             text-align: center;
-            margin-right: 10px;
+            margin-bottom: 10px;
           }
 
           .form-period {  
@@ -143,6 +142,11 @@ font-size: 2rem;
             font-size: 0.8rem;
             
           }
+
+          footer{
+            margin-bottom: 10px;
+        }
+    
   }
   
   @media (max-width: 600px) {
@@ -156,15 +160,18 @@ font-size: 2rem;
     }
 
     .header{
-        margin-top: -60px;
-        margin-bottom: -40px;
-        font-size: 0.8rem;
+        margin-bottom: -60px;
+        font-size: 0.6rem;
          }
 
          .form-inline label {
             text-align: center;
             margin-right: 10px;
-            font-size: 0.8rem;
+            font-size: 0.9rem;
+          }
+
+          .form-inline input {
+            padding: 8px;
           }
 
           .form-period {  
@@ -175,12 +182,17 @@ font-size: 2rem;
           .form-period label {
             margin: 10px 0 5px 0;
             text-align: center;
-            font-size: 0.6rem;
+            font-size: 0.7rem;
+          }
+
+          .form-period select {  
+            width: 10px;
+            height: 33px;
           }
 
           .form-period input {
-            margin: -1px 0 0 0;
-            padding: 10px;
+            margin: -1px 10px 5px 0;
+            padding: 8px;
           }
 
           .btn {
@@ -190,5 +202,9 @@ font-size: 2rem;
             font-size: 0.8rem;
             
           }
+
+          footer{
+            margin-bottom: 100px;
+        }
     
   }
