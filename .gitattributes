@@ -1,3 +1,6 @@
+<<<<<<< HEAD
 *.html linguist-detectable=false
+=======
+>>>>>>> 7c32c0268f01b809592de24912928bc96060b6bc
 *.css linguist-detectable=false
 *.js linguist-detectable=true
