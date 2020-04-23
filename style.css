@@ -58,6 +58,10 @@
     background-color: #fff;
     border-radius: 4px;
   }
+
+  input value{
+    color: red;
+  }
   
   .btn {
     margin-top: 50px;
@@ -108,6 +112,7 @@
 
   /* mobile display */
   @media (max-width: 800px) {
+
     .form-inline input {
       margin: 10px 0;
     }
@@ -158,6 +163,12 @@
   }
   
   @media (max-width: 600px) {
+    body{
+      max-width: 360px;
+      overflow-y: visible;
+      overflow-x: hidden;
+    }
+
     .form-inline input {
       margin: 5px 0;
     }
