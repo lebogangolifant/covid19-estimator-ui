@@ -3,4 +3,4 @@ novelty COVID-19 infections predictor estimator
 ## Screenshots
 !["covid19 estimator"](https://github.com/lebogangolifant/covid19-estimator-ui/blob/master/screenshots/covid19-estimatord.png)
 
-View [Demp!](https://lebogangolifant.github.io/covid19-estimator-ui/)
+View [Demo!](https://lebogangolifant.github.io/covid19-estimator-ui/)
