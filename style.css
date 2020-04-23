@@ -8,8 +8,9 @@
      margin: auto;
      text-align: center;
      color: #fff;
-     background-image: url("covid-map.png");
-     overflow: hidden;
+     background-image: linear-gradient(rgb(0,0,0,0.8), rgb(0,0,0,0.8)), url("covid-map.png");
+     background-size: cover;
+     overflow: visible;
  }
 
  /* header */
@@ -23,6 +24,13 @@
  .header span{
    color: #d12525;
    font-weight: 600;
+ }
+
+ .header p{
+   font-size: 1.1rem;
+   line-height: 27px;
+   margin-top: 20px;
+   font-weight: lighter;
  }
 
  /* form */
@@ -137,7 +145,7 @@
           }
 
           .btn {
-            margin-bottom: 20px;
+            margin-bottom: 60px;
             width: 350px;
             font-size: 0.8rem;
             
@@ -163,6 +171,11 @@
         margin-bottom: -60px;
         font-size: 0.6rem;
          }
+
+         .header p{
+          font-size: 1rem;
+          margin: 8px 2px 0 2px;  
+        }
 
          .form-inline label {
             text-align: center;
@@ -204,7 +217,7 @@
           }
 
           footer{
-            margin-bottom: 100px;
+            margin-bottom: 15px;
         }
     
   }
